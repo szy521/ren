@@ -1,17 +1,20 @@
 package cn.pojo;
 
-
+/**
+ * 收货地址
+ */
 public class Naddress {
 
-  private Integer nid;
-  private Integer nuid;
-  private String nname;
-  private String nphone;
-  private String nsheng;
-  private String nshi;
-  private String nqu;
-  private String ndetail;
-  private Integer npostcode;
+  private Integer nid;        //收货地址ID
+  private Integer nuid;       //用户ID
+  private String nname;       //用户姓名
+  private String nphone;      //用户手机号
+  private String nsheng;      //省份
+  private String nshi;        //市
+  private String nqu;         //区
+  private String ndetail;     //详细地址
+  private Integer npostcode;  //邮政编号
+  private Integer nxianshi;   //地址显示状态
 
   public Integer getNid() {
     return nid;
@@ -83,5 +86,13 @@ public class Naddress {
 
   public void setNpostcode(Integer npostcode) {
     this.npostcode = npostcode;
+  }
+
+  public Integer getNxianshi() {
+    return nxianshi;
+  }
+
+  public void setNxianshi(Integer nxianshi) {
+    this.nxianshi = nxianshi;
   }
 }

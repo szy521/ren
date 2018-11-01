@@ -15,6 +15,9 @@ public class Goods {
   private String gimage3;
   private Integer gcollect;
   private Integer gding;
+  private Integer gxianshi;
+
+
 
 
   public Integer getGid() {
@@ -111,5 +114,13 @@ public class Goods {
 
   public void setGding(Integer gding) {
     this.gding = gding;
+  }
+
+  public Integer getGxianshi() {
+    return gxianshi;
+  }
+
+  public void setGxianshi(Integer gxianshi) {
+    this.gxianshi = gxianshi;
   }
 }
